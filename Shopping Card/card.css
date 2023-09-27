@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+
+body{
+    background-color: #f9f2f2;
+    font-family: 'Merriweather', serif;
+    margin:  auto;
+}
+
+.container{
+    margin: 150px auto;
+    
+    width: 1000px;
+    display: flex;
+    background-color: #d3c5bc;
+    border-radius: 15px;
+
+}
+
+.box_card{
+    flex-basis: 450px;
+    background: url(./card_img.jpg) no-repeat center center / cover;
+    vertical-align: middle;
+    border-radius: 15px 0 0 15px;
+    
+}
+
+
+
+.box_text{
+    flex-basis: 450px;
+    margin: 0 40px 0;
+  
+
+}
+
+.box_text p{
+    color: #f9f2f2;
+}
+
+
+
+
+.price{
+    display: flex;
+     justify-content: space-around;
+     
+}
+
+ .box_text .price p:first-child{
+    font-size: 25px;
+    color: #010301;
+    font-weight: 700;
+}
+
+.box_text .price p:last-child{
+    text-decoration: line-through;
+    color: #010301;
+}
+
+.divBtn{
+   
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    background-color: #010301;
+    padding: 15px;
+    border-radius: 15px;
+    color: #f9f2f2;
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+
+.btn .fa-solid {
+margin-right: 5px;
+}
+
+@media (min-width: 320px) and (max-width: 684px){
+    .container{
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        
+    }
+
+    .box_card{
+     border-radius: 15px  15px 0 0;
+       
+    }
+
+    .box_text{
+        text-align: center;
+    }
+}
+
+
+
+@media (min-width: 685px) and (max-width: 980px){
+    .container{
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        
+    }
+
+    .box_card{
+     border-radius: 15px  15px 0 0;
+       
+    }
+
+    .box_text{
+        text-align: center;
+    }
+}
+
+
+
+
+
