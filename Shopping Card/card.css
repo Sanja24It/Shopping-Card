@@ -126,6 +126,11 @@ margin-right: 5px;
     .box_text{
         text-align: center;
     }
+
+   .btn{
+        margin-left: 0;
+    }
+        
 }
 
 
